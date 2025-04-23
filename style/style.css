@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* font-family: "Work Sans", sans-serif; */
+* {
+    margin: 0;
+    padding: 0;
+}
+#hero {
+    height: 652px;
+    background-image:linear-gradient(0.00deg, rgb(9, 9, 9) 3.482%,rgba(16, 16, 16, 0) 101.632%), url("../assets/hero-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.hero-content {
+    width: 726px;
+   
+}
+#hero .hero-content .subt {
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.8;
+    margin-bottom: 10px;
+}
+#hero .hero-content .title {
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 14px;
+    }
+#hero .hero-content .descrip {
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    margin-bottom: 22px;
+}
+.btn-container {
+    text-align: center;
+}
+#hero .hero-content .btn {
+    border-radius: 8px;
+    background: rgb(82, 195, 3);
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 21px 32px 21px 32px;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+
+.card-container {
+    width: 937px;
+    margin: 50px auto;
+}
+.card .info {
+    text-align:  center;
+    
+}
+.info-para {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.6;
+}
+
+.info-heading {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 45px;
+    letter-spacing: 0%;
+    text-align: center;
+    
+}
+.card-flex {
+   display: flex;
+   justify-content: space-between;
+   gap: 60px;
+   padding-top: 40px;
+}
+.card-box  {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 300px;
+    text-align: center;
+    justify-content: center;
+
+}
+.image-info {
+    max-width: 300px;
+}
+ .image-info img {
+    width: 100%;
+ }
+ .pizza {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: center;
+    
+ }
+ .pizza span {
+    border-radius: 8px;
+    background: rgba(82, 195, 3, 0.15);
+    padding: 7px 20px;
+ }
+ .pizza-head {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+ }
+
+ .pizza-info {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+ }
+
+.btn-all {
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 0 auto;
+   
+}
+.btn-all button {
+    border-radius: 8px;
+    background: rgb(82, 195, 3);
+    color: rgb(255, 255, 255);
+    padding: 15px 32px 15px 32px;
+    border: none;
+    cursor: pointer;
+    
+}
+
+
+
+
+
+
+
+/* .card-box {
+    width: 937px;
+    margin: 50px auto;
+}
+.card-box  .subtitle {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.6;
+}
+
+.card-box .title {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.card-container {
+    margin-top: 30px;
+}
+.card {
+    max-width: 300px;
+    display: flex;
+
+}
+.card .image-box {
+    width: 300px;
+}
+.card .image-box img {
+    width: 100%;
+}
+.info {
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.info-text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.btnn {
+    margin-top: 20px;
+} */
