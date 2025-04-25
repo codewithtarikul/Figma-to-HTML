@@ -182,63 +182,73 @@
 
 
 
-
-
-
-/* .card-box {
-    width: 937px;
-    margin: 50px auto;
+.foods-container {
+    width: 937pxpx;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 540px;
 }
-.card-box  .subtitle {
+.foods {
+    background-image: url("../assets/foods.png");
+    width: 50%;
+    height: 476px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about {
+    width: 50%;
+    text-align: left;
+    background-image: url("../assets/social-bg.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 476px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.about-para{
+    margin-top:10px;
     color: rgb(16, 16, 16);
     font-family: Work Sans;
     font-size: 16px;
     font-weight: 500;
-    line-height: 16px;
+    line-height: 28px;
     letter-spacing: 0%;
     text-align: center;
-    opacity: 0.6;
-}
-
-.card-box .title {
+    }
+.about-head {
     color: rgb(16, 16, 16);
     font-family: Work Sans;
-    font-size: 34px;
+    font-size: 30px;
     font-weight: 700;
-    line-height: 36px;
+    line-height: 48px;
     letter-spacing: 0%;
     text-align: center;
 }
-
-.card-container {
-    margin-top: 30px;
+.icons-head {
+    margin:  20px 0 20px 0;
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
 }
-.card {
-    max-width: 300px;
-    display: flex;
-
+.icons {
+    color: #52C303;
+    font-size: 20px;
 }
-.card .image-box {
-    width: 300px;
+.icons i {
+    margin-right: 10px;
+    text-align: center;
 }
-.card .image-box img {
-    width: 100%;
+.icons>i {
+    margin-left: 10px;
 }
-.info {
-    max-width: 300px;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    justify-content: center;
-    align-items: center;
-}
-.info-text {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    justify-content: center;
-    align-items: center;
-}
-.btnn {
-    margin-top: 20px;
-} */
