@@ -248,6 +248,7 @@
 .icons i {
     margin-right: 10px;
     text-align: center;
+    cursor: pointer;
 }
 .icons>i {
     margin-left: 10px;
